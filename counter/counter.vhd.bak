@@ -1,0 +1,16 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.numeric_std.ALL;
+  
+ENTITY counter IS
+	PORT (clk_in, reset, pause: in std_logic;
+		left_out, right_out: out std_logic_vector (6 downto 0));
+END counter;
+
+
+ARCHITECTURE arch_counter OF counter IS
+  
+BEGIN
+
+  
+END counter;

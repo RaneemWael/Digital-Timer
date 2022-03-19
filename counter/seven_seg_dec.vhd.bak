@@ -1,0 +1,29 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.numeric_std.ALL;
+  
+ENTITY seven_seg_dec IS
+	PORT (clk_in: in std_logic;
+		bcd: in std_logic_vector (3 downto 0);
+		seven_seg: out std_logic_vector (6 downto 0));
+END seven_seg_dec;
+
+ARCHITECTURE arch_seven_seg_dec OF seven_seg_dec IS
+
+SIGNAL count_tmp: integer := 0;
+  
+BEGIN
+
+	PROCESS(clk_in,reset)
+	BEGIN
+		IF (pause='1') THEN
+			count_out <= count_tmp;
+		ELSIF (reset='1') THEN
+			count_tmp<=0;
+		ELSIF (clk_in'EVENT) and (clk_in='1') THEN
+			count <= count+1;
+		END IF;
+		count_out <= count_tmp;
+	END PROCESS;
+  
+END arch_sixty_counter;
