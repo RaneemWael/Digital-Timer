@@ -1,0 +1,28 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.numeric_std.ALL;
+  
+ENTITY sixty_counter IS
+	PORT (clk_in, reset, pause: IN std_logic;
+		left_out, right_out: OUT std_logic);
+END sixty_counter;
+
+ARCHITECTURE arch_sixty_counter OF sixty_counter IS
+
+SIGNAL count: integer := 0;
+  
+BEGIN
+
+	PROCESS(clk_in,reset)
+	BEGIN
+		IF (pause='1') THEN
+			clock_out <= count;
+		ELSIF (reset='1') THEN
+			count<=0;
+		ELSIF (clk_in'EVENT) and (clk_in='1') THEN
+			count <= count+1;
+		END IF;
+		clock_out <= count;
+	END PROCESS;
+  
+END arch_sixty_counter;
