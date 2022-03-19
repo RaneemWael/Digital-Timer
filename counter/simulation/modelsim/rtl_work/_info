@@ -1,0 +1,213 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/simulation/modelsim
+Eclk_generator
+Z1 w1573236104
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/clk_generator.vhd
+Z6 FC:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/clk_generator.vhd
+l0
+L5
+V_<3AkPWT;;;8SZ8TbHU_^2
+!s100 22<:^YCL7<HAmQQR1EmmR3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1573237955
+!i10b 1
+Z9 !s108 1573237955.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/clk_generator.vhd|
+Z11 !s107 C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/clk_generator.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarch_clk_generator
+R2
+R3
+R4
+DEx4 work 13 clk_generator 0 22 _<3AkPWT;;;8SZ8TbHU_^2
+l16
+L11
+VS[]Wf=;SZ20oolOB_`fn@0
+!s100 cID?Xhn6]V7iFY[7o8H[k2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecounter
+Z14 w1573236107
+R2
+R3
+R4
+R0
+Z15 8C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/counter.vhd
+Z16 FC:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/counter.vhd
+l0
+L5
+V09^@m738>MWb4BJ<GlSaJ3
+!s100 4SbYCONb1gj@97UGj^^Je0
+R7
+31
+Z17 !s110 1573237956
+!i10b 1
+Z18 !s108 1573237956.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/counter.vhd|
+Z20 !s107 C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/counter.vhd|
+!i113 1
+R12
+R13
+Aarch_counter
+R2
+R3
+R4
+DEx4 work 7 counter 0 22 09^@m738>MWb4BJ<GlSaJ3
+l35
+L11
+VnLJ0^6oSZ9^=odlKY0<zg3
+!s100 =XW8BoEGTNOOX2gK1C1Jo0
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Ecounter_vhd_tst
+Z21 w1573237764
+R3
+R4
+R0
+Z22 8C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/simulation/modelsim/counter.vht
+Z23 FC:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/simulation/modelsim/counter.vht
+l0
+L30
+VbfLO`JX12T5RJd0RmzgaS1
+!s100 7^`kR9VRhITdEbe;e=G4C3
+R7
+31
+R17
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/simulation/modelsim/counter.vht|
+Z25 !s107 C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/simulation/modelsim/counter.vht|
+!i113 1
+R12
+R13
+Acounter_arch
+R3
+R4
+DEx4 work 15 counter_vhd_tst 0 22 bfLO`JX12T5RJd0RmzgaS1
+l49
+L32
+VMVeiP:nc];NYE0c?Bz@ih0
+!s100 HT]9>8ajmk^]hW9Q9<X?>3
+R7
+31
+R17
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R12
+R13
+Eseven_seg_dec
+Z26 w1573232769
+R2
+R3
+R4
+R0
+Z27 8C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/seven_seg_dec.vhd
+Z28 FC:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/seven_seg_dec.vhd
+l0
+L5
+Vfe1e0BIUL?;Hzm6kdjj>F1
+!s100 =^09oU^BKlHj]E`PCnNOT0
+R7
+31
+R17
+!i10b 1
+R18
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/seven_seg_dec.vhd|
+Z30 !s107 C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/seven_seg_dec.vhd|
+!i113 1
+R12
+R13
+Aarch_seven_seg_dec
+R2
+R3
+R4
+DEx4 work 13 seven_seg_dec 0 22 fe1e0BIUL?;Hzm6kdjj>F1
+l13
+L11
+Vm4Y740TX[^Yd29Ck<8h[z2
+!s100 MaaWn=]PmJDZJZ6_PgcRb3
+R7
+31
+R17
+!i10b 1
+R18
+R29
+R30
+!i113 1
+R12
+R13
+Esixty_counter
+Z31 w1573233367
+R2
+R3
+R4
+R0
+Z32 8C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/sixty_counter.vhd
+Z33 FC:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/sixty_counter.vhd
+l0
+L5
+V3eQn4[MkzcCF3W7FHckOc3
+!s100 `FW:cMN3`Y]LXZBHbNNLT2
+R7
+31
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/sixty_counter.vhd|
+Z35 !s107 C:/Users/user/Desktop/Edu/Guc/5/CSEN 605 (DSD)/counter/sixty_counter.vhd|
+!i113 1
+R12
+R13
+Aarch_sixty_counter
+R2
+R3
+R4
+DEx4 work 13 sixty_counter 0 22 3eQn4[MkzcCF3W7FHckOc3
+l16
+L11
+VJieod;[5Cll91NUgSRN[C2
+!s100 jkNbBX1]4nfjkQ5UfKYn;1
+R7
+31
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
