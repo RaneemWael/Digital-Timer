@@ -9,4 +9,4 @@ Once uploaded onto an FPGA, the output should be displayed on two seven segment 
 
 #### Report:
 
-The repord includes detailed information of pin placement onto the FPGA as well as description of the code functionality.
+The report includes detailed information of pin placement onto the FPGA as well as description of the code functionality.
